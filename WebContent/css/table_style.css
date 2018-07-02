@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+/*商品一覧のCSS */
+
+.item-table{
+	text-align:center;
+}
+
+
+.dl-list{
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+.dd-list{
+	width:31%;
+	display:inline-block;
+	font-size:12px;
+	float:left;
+	margin:0;
+	padding:15px 0px;
+	margin-left:2%;
+	margin-bottom:20px;
+}
+
+.dd-list:last-child{
+	margin-right:0
+}
+
+
+
+/* 購入確定 */
+.buy-item-list{
+	display:inline-block;
+	width:400px;
+	margin:0 auto;
+	padding-bottom:5px;
+	padding-top:15px;
+	margin-bottom:15px;
+}
+
+.buy-item-confirm{
+	display:inline-block;
+	margin-top:10px;
+	padding:15px 20px;
+	padding-right:50px;
+}
+
+.otherbutton{
+	width:300px;
+	height:100px;
+	margin:0 auto;
+}
+/* 問い合わせ確認(テスト運用) */
+.inquiry_confirm{
+	margin:0 auto;
+}
